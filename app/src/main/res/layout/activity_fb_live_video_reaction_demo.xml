@@ -13,8 +13,8 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:scaleType="fitXY"
-            android:src="@android:color/background_dark" />
+            android:scaleType="centerCrop"
+            android:src="@drawable/biryani_xyz" />
 
         <com.rxjava.demos.EmoticonsView
             android:id="@+id/custom_view"

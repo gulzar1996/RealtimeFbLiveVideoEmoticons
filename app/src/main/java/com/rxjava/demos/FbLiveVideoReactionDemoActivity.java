@@ -68,14 +68,15 @@ public class FbLiveVideoReactionDemoActivity extends AppCompatActivity {
     mDatabase= FirebaseDatabase.getInstance().getReference();
     ButterKnife.bind(this);
 
-    //SKIPS FIRST READ
-    for(int i=0;i<skip.length;i++)
-      skip[i]=true;
+
   }
 
   @Override
   public void onStart() {
     super.onStart();
+    //SKIPS FIRST READ
+    for(int i=0;i<skip.length;i++)
+      skip[i]=true;
 
     //Create an instance of FlowableOnSubscribe which will convert click events to streams
     FlowableOnSubscribe flowableOnSubscribe = new FlowableOnSubscribe() {
