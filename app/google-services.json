@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "28395868507",
+    "firebase_url": "https://rxfirebaseliveemoticon.firebaseio.com",
+    "project_id": "rxfirebaseliveemoticon",
+    "storage_bucket": "rxfirebaseliveemoticon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:28395868507:android:d31849771a75ae36",
+        "android_client_info": {
+          "package_name": "com.example.anshul.rxdownloader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "28395868507-72q3duo5n4gudemmrm8rjems8mkjerjs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCps0pGzOLCV9i_IokOBaH1H-LZG9FNSg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
